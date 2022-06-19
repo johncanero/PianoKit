@@ -1,0 +1,69 @@
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~
+$ cd
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~
+$ cd downloads
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/downloads
+$ mkdir PianoKit
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/downloads
+$ cd PianoKit
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/downloads/PianoKit
+$ code .
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/downloads/PianoKit
+$ git init
+Initialized empty Git repository in C:/Users/Caner/Downloads/PianoKit/.git/
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/downloads/PianoKit (main)
+$ git add .
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/downloads/PianoKit (main)
+$ git add README.md
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/downloads/PianoKit (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/downloads/PianoKit (main)
+$ git config --global user.name "John Canero"
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/downloads/PianoKit (main)
+$ git config --global user.email johncanero.official@gmail.com
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/downloads/PianoKit (main)
+$ git commit -m "Init commit"
+[main (root-commit) 0eb0add] Init commit
+ 1 file changed, 13 insertions(+)
+ create mode 100644 README.md
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/downloads/PianoKit (main)
+$ git branch -M main
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/downloads/PianoKit (main)
+$ git remote add origin https://github.com/johncanero/PianoKit.git
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/downloads/PianoKit (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 471 bytes | 471.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/johncanero/PianoKit.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+John Cañero@LAPTOP-PKFUO1UB MINGW64 ~/downloads/PianoKit (main)
+$
