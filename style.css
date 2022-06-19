@@ -15,7 +15,7 @@ body {
 h1 {
     color: white;
     text-align: center;
-    padding-top: 1.8em;
+    padding-top: 1.5em;
     font-family: 'Merriweather', serif;
 }
 
@@ -40,18 +40,18 @@ h1 {
     grid-template-rows: 90px 90px 90px 90px;
 
     justify-content: center;
+    align-items: center;
     gap: 26px;
 
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 1em;
+    padding-bottom: 3.2em;
 }
 
 
 /* Images */
 .grandPiano {
-    width: 9em;
+    width: 18em;
     display: flex;
-    margin-top: 2em;
 }
 
 
@@ -59,10 +59,10 @@ h1 {
 .key {
     outline: none;
     border: 4px solid #ffe7b7;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding-top: 1em;
     font-family: 'Montserrat', sans-serif;
-    line-height: 2.3;
+    line-height: 3;
     font-weight: 900;
     color: #3b2a0a;
     text-shadow: 3px 0 #ffe7b3;
@@ -80,9 +80,67 @@ h1 {
   /* Piano Classes */
 
   .a {
-    background-image: url();
+    background-image: url(images/pianoIcon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
   }
 
+
+  .s {
+    background-image: url(images/pianoIcon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+
+
+  .d {
+    background-image: url(images/pianoIcon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+
+
+  .f {
+    background-image: url(images/pianoIcon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+
+  .h {
+    background-image: url(images/pianoIcon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+
+  .j {
+    background-image: url(images/pianoIcon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .k {
+    background-image: url(images/pianoIcon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .l {
+    background-image: url(images/pianoIcon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
 
 
 
@@ -112,14 +170,13 @@ h1 {
         gap: 28px;
     
         padding-top: 3em;
-        padding-bottom: 7.5em;
+        padding-bottom: 4em;
     }
 
     
     .grandPiano {
-        width: 13em;
+        width: 20em;
         display: flex;
-        margin-top: 4em;
     }
 
     
@@ -161,7 +218,7 @@ h1 {
             
     h1 {
         text-align: center;
-        padding-top: 1.8em;
+        padding-top: 1.4em;
         font-size: 2.2em;
     }
 
@@ -174,17 +231,16 @@ h1 {
         justify-content: center;
         gap: 28px;
     
-        padding-top: 5em;
-        padding-bottom: 4.5em;
+
+        padding-bottom: 2.8em;
     }
 
 
     /* Image */
 
     .grandPiano {
-        width: 12em;
+        width: 23em;
         display: flex;
-        margin-top: 3.5em;
     }
 
 
@@ -204,7 +260,7 @@ h1 {
         width: 120px;
         height: 120px;
         text-align: center;
-        margin: 10px;
+
         background-color: white;
       }
 
