@@ -20,6 +20,11 @@ h1 {
     font-family: 'Merriweather', serif;
 }
 
+
+button {
+  z-index: auto;
+}
+
 .footer {
     text-align: center;
     color: white;
