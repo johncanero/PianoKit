@@ -5,7 +5,8 @@
 
 
 body {
-    background-image: url(images/pianoCover.jpg);
+    /* background-image: url(images/pianoCover.jpg); */
+    background: linear-gradient(rgba(13, 13, 13, 0.5), rgba(19, 19, 19, 0.5)), url(images/pianoCover.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,7 +45,7 @@ h1 {
     gap: 26px;
 
     padding-top: 1em;
-    padding-bottom: 3.2em;
+    padding-bottom: 3.8em;
 
     margin-right: 1em;
 }
@@ -172,12 +173,12 @@ h1 {
         gap: 28px;
     
         padding-top: 3em;
-        padding-bottom: 4em;
+        padding-bottom: 8.5em;
     }
 
     
     .grandPiano {
-        width: 20em;
+        width: 22em;
         display: flex;
     }
 
@@ -233,8 +234,8 @@ h1 {
         justify-content: center;
         gap: 28px;
     
-
-        padding-bottom: 2.8em;
+        padding-top: 2em;
+        padding-bottom: 7em;
     }
 
 
