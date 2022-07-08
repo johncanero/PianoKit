@@ -118,7 +118,8 @@ p {
 
 /* Images */
 .grandPiano {
-  width: 18em;
+  width: 17em;
+  padding-top: 0.8em;
   display: flex;
 }
 
