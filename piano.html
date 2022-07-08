@@ -16,10 +16,10 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+      <!-- Googel -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Montserrat:wght@100;300;400;700&family=Poppins:wght@300;400;700&family=Squada+One&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -28,18 +28,26 @@
         <img class="grandPiano" src="images/grandPianoIcon.png" alt="grandPiano.png">    
     </div>
    
+
+    <!-- Mobile and Tablet -->
     <div class="grid-container">
-        <!-- <button class="a key">do</button>
-        <button class="s key">re</button>
-        <button class="d key">mi</button>
-        <button class="f key">fa</button>
-        <button class="h key">sol</button>
-        <button class="j key">la</button>
-        <button class="k key">ti</button>
-        <button class="l key">do</button> -->
-            
-        <!-- StackOverflow -->
-        <!-- Added data key -->
+        <button data-key="a" class="a key">do</button>
+        <button data-key="s" class="s key">re</button>
+        <button data-key="d" class="d key">mi</button>
+        <button data-key="f" class="f key">fa</button>
+        <button data-key="h" class="h key">sol</button>
+        <button data-key="j" class="j key">la</button>
+    </div>
+    
+
+    <div class="grid-container2">
+        <button data-key="k" class="k key">ti</button>
+        <button data-key="l" class="l key">do</button>
+    </div>
+
+
+    <!-- Desktop -->
+    <div class="grid-container3">
         <button data-key="a" class="a key">do</button>
         <button data-key="s" class="s key">re</button>
         <button data-key="d" class="d key">mi</button>
@@ -50,12 +58,14 @@
         <button data-key="l" class="l key">do</button>
     </div>
 
-   
-    
-    
-    <footer class="footer">
-        <p>Piano Kit <i class="fa-solid fa-music"></i> by John Cañero</p>
+
+      <!-- Copyright -->
+      <footer>
+        <div class="footer">
+            <p class="copyright">Piano Kit © 2022 John Cañero</p>   
+        </div>
     </footer>
+
     
 
 
