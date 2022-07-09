@@ -309,7 +309,6 @@ p {
 }
 
 /* Desktop */
-
 @media only screen and (min-device-width: 1025px) {
   h1 {
     text-align: center;
