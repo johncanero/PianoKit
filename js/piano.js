@@ -1,20 +1,3 @@
-// Detecting Button Press
-// var numberOfPianoKeyButtons = document.querySelectorAll(".key").length;
-// for (var i = 0; i < numberOfPianoKeyButtons; i++) {
-//     document.querySelectorAll(".key")[i].addEventListener("click", function () {
-//         var buttonInnerHTML = this.innerHTML
-
-//         // audio
-//         makeSound (buttonInnerHTML);
-
-//         // animation
-//         buttonAnimation (buttonInnerHTML);
-
-//     });
-
-//     }
-
-
 // Stack Overflow
 var pianoKeyButtons = document.querySelectorAll(".key");
 
@@ -117,7 +100,15 @@ pianoKeyButtons.forEach(function (button) {
     }
 
 
-
+// Let's Go Button
+// Functions to play main button audio on click
+function playSound() {
+    const sound = document.getElementById("startButtonSound");
+    sound.play();
+    sound.addEventListener("ended", function() {
+        location.href="index.html";
+    });
+}
 
 
 

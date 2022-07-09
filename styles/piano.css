@@ -256,7 +256,9 @@ p {
     font-size: 2em;
   }
 
-
+  p {
+    font-size: 1.6em;
+  }
   /* Grid Container */
   .grid-container {
     grid-template-columns: 130px 130px 130px;
@@ -309,11 +311,17 @@ p {
 }
 
 /* Desktop */
+
 @media only screen and (min-device-width: 1025px) {
   h1 {
     text-align: center;
     padding-top: 1.4em;
     font-size: 2.2em;
+  }
+
+  
+  p {
+    font-size: 1.6em;
   }
 
 
@@ -329,7 +337,7 @@ p {
   .grid-container3 {
     display: grid;
     grid-template-columns: 130px 130px 130px 130px;
-    grid-template-rows: 130px 130px;
+    grid-template-rows: 100px 100px;
 
     justify-content: center;
     gap: 28px;
@@ -351,15 +359,15 @@ p {
     border: 4px solid #ffe7b7;
     font-size: 1.8rem;
     font-family: "Montserrat", sans-serif;
-    line-height: 4.5;
+    line-height: 4;
     font-weight: 900;
     color: #3b2a0a;
     text-shadow: 3px 0 #ffe7b3;
     border-radius: 15px;
     display: inline-block;
 
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     text-align: center;
 
     background-color: white;
