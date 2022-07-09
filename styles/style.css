@@ -24,6 +24,38 @@ body {
   margin-bottom: 100px;
 }
 
+/* Heading Tag */
+
+h3 {
+    font-size: 1.8em;
+  }
+  
+
+
+p {
+    font-size: 1.3em;
+  }
+
+
+h3,
+p {
+  font-weight: 300;
+  font-family: "Squada One", cursive;
+}
+
+
+/* Padding */
+.taglinePadding {
+    margin-top: 2em;
+    margin-right: 4em;
+    margin-left: 4em;
+    color: white;
+
+    text-align: center;
+}
+
+
+
 /* Flex Container */
 .flex-container1 {
   display: flex;
@@ -50,7 +82,7 @@ body {
   text-decoration: none;
   text-shadow: 0px 1px 0px #e1e2ed;
 
-  margin-top: 2.5em;
+  margin-top: 3em;
 }
 .myButton:hover {
   background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
@@ -79,4 +111,11 @@ body {
 .copyright {
   color: white;
   padding: 0.5em;
+}
+
+
+/* Images */
+.pianoIcon {
+    width: 16em;
+    margin-top: 5em;
 }
