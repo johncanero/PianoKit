@@ -4,7 +4,8 @@ This is my first time incorporating Git. I believe this is a powerful tool to sa
 
 
 <img src="images/desktopView - PianoKit1.png" alt="desktopView - PianoKit1.png">
-<img src="desktopView - PianoKit2.png" alt="desktopView - PianoKit2.png">
+
+<img src="images/desktopView - PianoKit2.png" alt="desktopView - PianoKit2.png">
 
 Let's go and build some stuffs! 🎹
 
