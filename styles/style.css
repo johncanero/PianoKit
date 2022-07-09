@@ -27,15 +27,12 @@ body {
 /* Heading Tag */
 
 h3 {
-    font-size: 1.8em;
-  }
-  
-
+  font-size: 1.8em;
+}
 
 p {
-    font-size: 1.3em;
-  }
-
+  font-size: 1.3em;
+}
 
 h3,
 p {
@@ -43,18 +40,15 @@ p {
   font-family: "Squada One", cursive;
 }
 
-
 /* Padding */
 .taglinePadding {
-    margin-top: 2em;
-    margin-right: 4em;
-    margin-left: 4em;
-    color: white;
+  margin-top: 2em;
+  margin-right: 4em;
+  margin-left: 4em;
+  color: white;
 
-    text-align: center;
+  text-align: center;
 }
-
-
 
 /* Flex Container */
 .flex-container1 {
@@ -113,9 +107,27 @@ p {
   padding: 0.5em;
 }
 
-
 /* Images */
-.pianoIcon {
-    width: 16em;
-    margin-top: 5em;
+.grandPianoIcon {
+  width: 20em;
+  margin-top: 4em;
+}
+
+/* Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Heading Tag */
+
+  h3 {
+    font-size: 2.1em;
+  }
+
+  p {
+    font-size: 1.6em;
+  }
+
+  /* Images */
+  .grandPianoIcon {
+    width: 26em;
+    margin-top: 4em;
+  }
 }
