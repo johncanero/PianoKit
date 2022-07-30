@@ -20,25 +20,30 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 
-  /* footer support */
-  margin-bottom: 100px;
+    /* Footer Guide */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh ;
 }
+
+/* MAIN */
+main {
+  flex-grow: 1;
+}
+
 
 /* Heading Tag */
 
 h3 {
   font-size: 1.8em;
-}
-
-p {
-  font-size: 1.3em;
-}
-
-h3,
-p {
+  font-family: 'Squada One', cursive;
   font-weight: 300;
-  font-family: "Squada One", cursive;
 }
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 /* Padding */
 .taglinePadding {
@@ -97,7 +102,7 @@ p {
   justify-content: center;
   gap: 10px;
   width: 100%;
-  padding: 0.5em;
+  padding: 0.7em;
   background-color: #2b2b2b;
   color: white;
 }
@@ -118,11 +123,11 @@ p {
   /* Heading Tag */
 
   h3 {
-    font-size: 2.1em;
+    font-size: 2.4em;
   }
 
   p {
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
 
   /* Images */
@@ -135,11 +140,11 @@ p {
 /* Desktop */
 @media only screen and (min-device-width: 1025px) {
   h3 {
-    font-size: 2.1em;
+    font-size: 2.6em;
   }
 
   p {
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
 
   /* Images */
@@ -148,3 +153,9 @@ p {
     margin-top: 3em;
   }
 }
+
+
+/* font-family: 'Knewave', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Squada One', cursive; */
