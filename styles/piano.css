@@ -115,7 +115,7 @@ h3 {
 
 /* Footer */
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   display: flex;
@@ -128,10 +128,6 @@ h3 {
   color: white;
 }
 
-.copyright {
-  color: white;
-  padding: 0.5em;
-}
 
 
 /* Images */
@@ -272,9 +268,6 @@ h3 {
     font-size: 2em;
   }
 
-  p {
-    font-size: 1.2em;
-  }
   /* Grid Container */
   .grid-container {
     grid-template-columns: 130px 130px 130px;
@@ -344,10 +337,7 @@ h3 {
     font-size: 2.2em;
   }
 
-  
-  p {
-    font-size: 1.2em;
-  }
+
 
 
   /* Grid Container */

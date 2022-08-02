@@ -96,7 +96,7 @@ p {
 
 /* Footer */
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   display: flex;
@@ -109,10 +109,6 @@ p {
   color: white;
 }
 
-.copyright {
-  color: white;
-  padding: 0.5em;
-}
 
 /* Images */
 .grandPianoIcon {
@@ -128,10 +124,6 @@ p {
     font-size: 2.4em;
   }
 
-  p {
-    font-size: 1.2em;
-  }
-
   /* Images */
   .grandPianoIcon {
     width: 26em;
@@ -145,9 +137,6 @@ p {
     font-size: 2.6em;
   }
 
-  p {
-    font-size: 1.2em;
-  }
 
   /* Images */
   .grandPianoIcon {
