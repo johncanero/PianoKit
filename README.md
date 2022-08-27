@@ -28,7 +28,7 @@ Let's go and build some stuffs! 🎨
 
 ## Website
 
-🖥️ https://johncanero.github.io/ColorSequenceGame/
+🖥️ [https://johncanero.github.io/PianoKit/]
 
 ✍️ Project by John Cañero
 
