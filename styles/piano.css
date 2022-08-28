@@ -53,9 +53,7 @@ h3 {
   font-size: 1.4em;
 }
 
-p {
-  font-family: 'Montserrat', sans-serif
-}
+
 
 h3 {
   font-weight: 300;
@@ -112,7 +110,6 @@ h3 {
 
 
 
-
 /* Footer */
 .footer {
   position: relative;
@@ -123,11 +120,12 @@ h3 {
   justify-content: center;
   gap: 10px;
   width: 100%;
-  padding: 0.7em;
+  padding: 1em;
   background-color: #2b2b2b;
   color: white;
+  font-family: 'Squada One', cursive;
+  font-size: 1.3em;
 }
-
 
 
 /* Images */
@@ -234,14 +232,14 @@ h3 {
 	cursor:pointer;
 	color:#3b2a0a;
 
-  font-family: 'Merriweather Sans', sans-serif;
-	font-size:17px;
+  font-family: 'Squada One', cursive;
+  font-size: 1.3em;
 	padding:7px 25px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #e1e2ed;
 
   
-  margin-top: 2.5em;
+  margin-top: 2em;
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
